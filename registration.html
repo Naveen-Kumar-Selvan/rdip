@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         body{
+         width:960px;
+         font-family: Arial, Helvetica, san-serif;
+         margin-left: 150px;
+         margin-right: 150px;
+         }
+         h2{
+         text-align: center;
+         margin-top: 60px;
+         }
+         .rdip a{
+         color: violet;
+         text-decoration:underline;
+         margin-top: 500px;
+         margin-left: 800px;
+         font-size: 30px;
+         font-weight: bold;
+         }
+         ul {
+         list-style-type: none;
+         margin: 20px 40px 0px 40px;
+         padding: 0;
+         overflow: hidden;
+         background-color: #333;
+         }
+         li {
+         float: left;
+         }
+         li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 10px;
+         text-decoration: none;
+         }
+         .details img{
+         float:right;
+         }
+         .logo{
+         margin-top: 20px;
+         margin-left: 25px;
+         }
+         .formhead{
+         padding: 20px;
+         border-radius: 10px;
+         }
+         .formhead .forms{
+         padding-bottom: 15px;
+         }
+         .forms label{
+         padding: 2px;
+         width: 120px;
+         display: inline-block;
+         border-radius: 4px;
+         font-weight: bold;
+         }
+         .forms {
+         margin-left: 15px;
+         }
+         .forms1 {
+         margin-left: 15px;
+         }
+         .forms2{
+         margin-left: 15px;
+         }
+         .forms3 {
+         margin-left: 15px;
+         }
+         .forms1 label{
+         <!-- padding: 2px; -->
+         width: 300px;
+         display: inline-block;
+         margin-left: 32px;
+         input[type="checkbox"], input[type="radio"] {
+         display inline-block;
+         width: 200px;
+         margin-left: 32px;
+		 }
+         input[type="button"]{
+         margin-left: 30px;
+         }
+      </style>
+   </head>
+   <body>
+      <h2> REGISTRATION PAGE:</h2>
+      <div class="rdip">
+         <a href="https://serc.iiit.ac.in/rdip"> RDIP </a>
+      </div>
+      <div class="logo">
+         <a href="https://www.iiit.ac.in/"><img class="logo" src="https://www.iiit.ac.in/img/iiit-new.png" style="width:128px;height:128px margin-left: 80px"/></a>
+      </div>
+      <ul>
+         <li><a href="homepage.html"> Home </a></li>
+         <li><a href="registration.html"> Registration Form </a></li>
+      </ul>
+      <form class="formhead" action="/action_page.asp" method="get">
+         <div class="forms">
+            <label> First Name: </label>
+            <input type="text" name="name" required>
+         </div>
+         <div class="forms">
+            <label> E-mail: </label>
+            <input type="text" name="E-mail" required>
+         </div>
+         <div class="forms">
+            <label> Phone No: </label>
+            <input type="tel" name="Phone No" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+         </div>
+         <div class="forms2">
+            <h4>Gender: 
+               <input type="radio" id="male" name="male" value="Male">
+               <label for="male">Male</label>
+               <input type="radio" id="female" name="female" value="Female">
+               <label for="female">Female</label>
+               <input type="radio" id="other" name="other" value="Other">
+               <label for="other">Other</label> 
+            </h4>
+         </div>
+         <div class="forms2">
+            <h4>Reason for RDIP: 
+               <input type="checkbox" id="html" name="RDIP" value="HTML">
+               <label for="html"> HTML </label>
+               <input type="checkbox" id="css" name="RDIP" value="CSS">
+               <label for="css"> CSS </label>
+               <input type="checkbox" id="javascript" name="RDIP" value="Javascript">
+               <label for="javascript">Javascript</label>
+            </h4>
+         </div>
+         <div class="forms">
+            <label> College: </label>
+            <input type="text" name="College" required>
+         </div>
+         <div class="forms1">
+            <input type="checkbox" id="dec" name="dec" value="HTML" required>
+            <label for="dec">
+               <h4> I declare above details given by me are true.</h4>
+            </label>
+         </div>
+         <div class="forms3">
+            <!-- <input type="submit" value="Submit">
+               </div>
+               
+               <div class="forms">	
+               	<input type="reset" value="Reset">
+               </div>
+               <!-- <input type="submit" value="Submit"> -->
+            <input type="button"  onclick="window.open('details.html');" value="Submit">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+            <input type="button"  onclick="window.open('registration.html')";" value="Reset">
+         </div>
+      </form>
+   </body>
+</html>
