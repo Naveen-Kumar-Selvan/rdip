@@ -1,0 +1,32 @@
+.body{
+    width:960px;
+    font-family: Arial, Helvetica, san-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+	background-color: #1aa3ff;
+    }
+.heading{
+    text-align: center;
+    margin-top: 60px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 200px;
+    }
+.formhead{
+    padding: 20px;
+    border-radius: 10px;
+    }
+.formhead .forms{
+    padding-bottom: 15px;
+    }
+.forms label{
+    padding: 2px;
+    width: 120px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: bold;
+	font-size: 22px;
+    }
+.forms {
+    margin-left: 200px;
+    }

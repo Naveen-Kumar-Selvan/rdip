@@ -1,0 +1,36 @@
+body{
+	background-color: #1aa3ff;
+}
+	
+.container {
+	font-size: 24px;
+	font-variant: bold;
+	background-color: #ff99bb;
+	margin-left: 300px;
+	margin-top: 100px;
+	margin-right: 150px;
+}
+
+.Anag {
+	font-size: 24px;
+	font-variant: bold;
+	background-color: #99c2ff;
+	margin-left: 300px;
+	margin-top: 50px;
+	margin-right: 150px;
+}
+
+#pd {
+	text-align: center;
+	placeholder-align: center;
+}
+
+.ag1 {
+	text-align: center;
+	placeholder-align: center;
+}
+
+.ag2 {
+	text-align: center;
+	placeholder-align: center;
+}

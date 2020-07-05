@@ -1,0 +1,23 @@
+body {
+	width: 960px;
+	font-family: Arial, Helvetica, san-serif;
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: #ff33cc;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 60px;
+	font-size: 24px;
+}
+
+.input {
+	padding: 2px;
+	width: 120px;
+	display: inline-block;
+	border-radius: 4px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: 20px;
+}
